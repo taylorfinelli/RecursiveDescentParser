@@ -65,9 +65,6 @@ void parse_S(){
         match('b');
         parse_B();
     }
-    else if(*lookahead == 'c'){
-        match('c');
-    }
     // Should be at end of string by now
     if(*lookahead != '$'){
         cout << "Error: too much input\n"; 
